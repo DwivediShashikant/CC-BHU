@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\BHU_connect-master\\CC_BHU\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\app_logo.png",
+        "source": "E:\\BHU_connect-master\\CC_BHU\\app\\src\\main\\res\\mipmap-xxxhdpi\\app_logo.png"
+    },
+    {
+        "merged": "E:\\BHU_connect-master\\CC_BHU\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
+        "source": "E:\\BHU_connect-master\\CC_BHU\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    }
+]

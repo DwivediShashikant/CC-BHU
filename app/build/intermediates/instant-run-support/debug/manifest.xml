@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shashikant.bhuconnect"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="25" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/app_logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.shashikant.bhuconnect.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.shashikant.bhuconnect.WriteComplain"
+            android:label="Register Complain" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.example.shashikant.bhuconnect.Holidays.HolidaysActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_holidays" />
+        <activity android:name="com.example.shashikant.bhuconnect.EmployeeActivity" />
+        <activity
+            android:name="com.example.shashikant.bhuconnect.EventsAndNews.NewsEvents"
+            android:label="@string/title_activity_news_events" />
+        <activity android:name="com.example.shashikant.bhuconnect.EmployeeInfo" />
+        <activity android:name="com.example.shashikant.bhuconnect.EmpProfile" />
+        <activity android:name="com.example.shashikant.bhuconnect.EmpSalarySlip" />
+        <activity android:name="com.example.shashikant.bhuconnect.ContactActivity" />
+        <activity android:name="com.example.shashikant.bhuconnect.EventsAndNews.newsdetailActivity" />
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.example.shashikant.bhuconnect.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+    </application>
+
+</manifest>

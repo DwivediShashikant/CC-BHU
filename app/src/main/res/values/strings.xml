@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">BHU CONNECT</string>
+    <string name="yourName">Enter Your Enrollment Number</string>
+    <string name="studentOrEmployee">What are you?</string>
+    <string name="title_activity_tabbed_complain">TabbedComplainActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_complain">Who are you?</string>
+    <!--roll number or emailstring for complainActivity-->
+    <string name="roll_number">Enter roll number or email</string>
+    <!--enrollment number string for complain-->
+    <string name="enrollment_number">Enter enrollment number </string>
+    <!--emailId for Employee-->
+    <string name="panId">Enter Your Employee ID</string>
+    <!--employeeId for employee in complainActivity-->
+    <string name="paswword">Enter your password</string>
+
+    <!--string for complaint type-->
+    <string name="complaint_type">Complaint Type</string>
+    <!--This is an String array for providing different options for complaint type in Write complaint-->
+    <string-array name="complaint_type_array">
+        <item>Internet Connectivity</item>
+        <item>Proxy Complaint</item>
+    </string-array>
+    <string name="title_activity_holidays">HolidaysActivity</string>
+    <string name="title_activity_news_events">NewsEvents</string>
+    <string name="no_events_list">No Evets Found</string>
+    <string name="no_news_list">No News Found</string>
+    <string name="no_gazetted_holidays">No Holidays Found</string>
+    <string name="no_internet">Not Connected To Internet </string>
+    <string name="news_detail">It is First Day of annual Cultural event of Institute Of Science Akanksha, Students from
+    science are participating enthusiastically to show their talents.</string>
+</resources>

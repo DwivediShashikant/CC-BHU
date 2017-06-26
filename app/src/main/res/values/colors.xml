@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="primary_color">#4A312A</color>
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="primary_dark_color">#2F1D1A</color>
+
+    <!-- Background color for app -->
+    <color name="tan_background">#ffffff</color>
+
+    <!-- Background color for the numbers category -->
+    <color name="category_numbers">#FD8E09</color>
+
+    <!-- Background color for the family members category -->
+    <color name="category_family">#379237</color>
+
+    <!-- Background color for the colors category -->
+    <color name="category_colors">#8800A0</color>
+
+    <!-- Background color for the phrases category -->
+    <color name="category_phrases">#16AFCA</color>
+
+    <!--Background color for the MainActivity-->
+    <color name="category_MainActivity">#ff9100</color>
+    <!--Background color ro set white-->
+    <color name ="white_color">#ffffff</color>
+    <!--Background color for the list-->
+    <color name ="list_background_color">#f5f5f5</color>
+    <!-- Background color for the image-->
+    <color name ="imageBackgroundColor">#ffffff</color>
+    <!--text color for heading in the main activity-->
+    <color name="headingColor">#1a237e</color>
+    <!--text color for content under the heading of Main Activity-->
+    <color name="textcolorContent">#ff5722</color>
+    <color name="grey">#eeeeee</color>
+    <color name="list_item_color">#FFAB91</color>
+</resources>

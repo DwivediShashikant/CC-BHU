@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.shashikant.bhuconnect.Complain">
+
+
+    <ImageView
+        android:id="@+id/personType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/notifications"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"/>
+    <EditText
+        android:id="@+id/uniqueIdOrEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/roll_number"
+        android:layout_gravity="center"/>
+    <EditText
+        android:id="@+id/uniqueId"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enrollment_number"/>
+    <Button
+        android:id="@+id/login_button"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/headingColor"
+        android:textColor="@color/textcolorContent"
+        android:text="Login"/>
+
+</LinearLayout>

@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:background="@color/tan_background"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context="com.example.shashikant.bhuconnect.MainActivity"
+    android:clipToPadding="false">
+
+
+    <ImageView
+        android:id="@+id/bhuLogoId"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/bhu_logo" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Employee Service Portal"
+        android:textColor="@color/headingColor"
+        android:layout_gravity="center_horizontal"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textAllCaps="true"/>
+
+    <View
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/headingColor"
+        android:layout_marginBottom="16dp"/>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Layout for Employee Portal -->
+
+            <LinearLayout
+                style="@style/elevation"
+                android:layout_marginTop="2dp"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/employee">
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:padding="5dp"
+                    android:src="@drawable/employee"
+                    android:background="@color/imageBackgroundColor"
+                    android:layout_marginRight="2dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:orientation="vertical"
+                    android:background="@color/list_background_color"
+                    android:padding="8dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Employee Portal"
+                        android:textColor="@color/headingColor"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/textHeadingSize"
+                        android:textAllCaps="true" />
+                    <TextView
+                        style="@style/defaultStyle_content"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Employee Profile\nSalary Slip"
+                        android:textColor="@color/textcolorContent"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            /*Layout for Events*/
+            <LinearLayout
+                style="@style/elevation"
+                android:layout_marginTop="2dp"
+                android:orientation="horizontal"
+                android:layout_height="75dp"
+                android:layout_width="match_parent"
+                android:id="@+id/events_LinearLayout">
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:padding="5dp"
+                    android:src="@drawable/events_happenning"
+                    android:background="@color/imageBackgroundColor"
+                    android:layout_marginRight="2dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:orientation="vertical"
+                    android:background="@color/list_background_color"
+                    android:padding="8dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Events"
+                        android:textColor="@color/headingColor"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/textHeadingSize"
+                        android:textAllCaps="true" />
+                    <TextView
+                        style="@style/defaultStyle_content"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Venue\nFuture | Current | Past Events"
+                        android:textColor="@color/textcolorContent"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            /* layout for public holidays*/
+            <LinearLayout
+                style="@style/elevation"
+                android:layout_marginTop="2dp"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/holidays_LinearLayout">
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:padding="5dp"
+                    android:src="@drawable/calendar"
+                    android:background="@color/imageBackgroundColor"
+                    android:layout_marginRight="2dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:orientation="vertical"
+                    android:background="@color/list_background_color"
+                    android:padding="8dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Public holidays"
+                        android:textColor="@color/headingColor"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/textHeadingSize"
+                        android:textAllCaps="true" />
+                    <TextView
+                        style="@style/defaultStyle_content"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Public Holidays\nGazetted Holidays"
+                        android:textColor="@color/textcolorContent" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            /*Layout for Complain*/
+
+            <LinearLayout
+                style="@style/elevation"
+                android:layout_marginTop="2dp"
+                android:orientation="horizontal"
+                android:layout_height="75dp"
+                android:layout_width="match_parent"
+                android:id="@+id/complain_LinearLayout">
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:padding="5dp"
+                    android:src="@drawable/complaint_edit"
+                    android:background="@color/imageBackgroundColor"
+                    android:layout_marginRight="2dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:orientation="vertical"
+                    android:background="@color/list_background_color"
+                    android:padding="8dp">
+                    <TextView
+                        android:id="@+id/complain_text_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Register Complaint"
+                        android:textColor="@color/headingColor"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/textHeadingSize"
+                        android:textAllCaps="true" />
+                    <TextView
+                        style="@style/defaultStyle_content"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Internet facility\nProxy Complaint"
+                        android:textColor="@color/textcolorContent"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            /*layout for Contact*/
+            <LinearLayout
+                style="@style/elevation"
+                android:layout_marginTop="2dp"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/contact_LinearLayout">
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:padding="5dp"
+                    android:src="@drawable/tele_phone"
+                    android:background="@color/imageBackgroundColor"
+                    android:layout_marginRight="2dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:orientation="vertical"
+                    android:background="@color/list_background_color"
+                    android:padding="8dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Contact Us"
+                        android:textColor="@color/headingColor"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/textHeadingSize"
+                        android:textAllCaps="true" />
+                    <TextView
+                        style="@style/defaultStyle_content"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Link to website\nEmail | Phone Number\n"
+                        android:textColor="@color/textcolorContent"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

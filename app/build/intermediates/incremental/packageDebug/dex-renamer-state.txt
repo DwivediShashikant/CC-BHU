@@ -1,0 +1,7 @@
+#Tue May 30 13:04:14 IST 2017
+base.0=E\:\\BHU_connect-master\\CC_BHU\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_341d0e337f71c2a7a59fbaf265426c4ba4244fce
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=E\:\\BHU_connect-master\\CC_BHU\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_814a84dc928ae0a77afb111d1f105d63f088d7c9\\classes.dex
+base.1=E\:\\BHU_connect-master\\CC_BHU\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_814a84dc928ae0a77afb111d1f105d63f088d7c9
+file.0=E\:\\BHU_connect-master\\CC_BHU\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_341d0e337f71c2a7a59fbaf265426c4ba4244fce\\classes.dex

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content"
+    android:padding="16dp"
+    android:clipToPadding="false"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false"
+    tools:context="com.example.shashikant.bhuconnect.WriteComplain">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout2">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:clipToPadding="false">
+        <TextView
+           android:layout_width="@dimen/width"
+           android:layout_height="wrap_content"
+           android:text="@string/complaint_type"
+           style="@style/headingStyle" />
+       <Spinner
+           android:layout_marginLeft="16dp"
+           android:id="@+id/spinnerComplaintType"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+      </Spinner>
+   </LinearLayout>
+    <LinearLayout
+        android:id="@+id/place_of_complaint"
+    android:layout_marginTop="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="@dimen/width"
+        android:layout_height="wrap_content"
+        android:text="Place"
+        style="@style/headingStyle"/>
+    <EditText
+        android:id="@+id/complain_place"
+        android:layout_marginLeft="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/width"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            style="@style/headingStyle"/>
+        <EditText
+            android:id="@+id/student_name"
+            android:layout_marginLeft="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/width"
+            android:layout_height="wrap_content"
+            android:text="Mobile number"
+            style="@style/headingStyle"/>
+        <EditText
+            android:id="@+id/student_mobNo"
+            android:layout_marginLeft="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/width"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            style="@style/headingStyle"/>
+        <EditText
+            android:id="@+id/student_email"
+            android:layout_marginLeft="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Write your complaint, please be specific :"
+            android:textColor="@color/textcolorContent"
+            android:textStyle="bold"
+            android:textSize ="20sp"/>
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/editComplain" />
+    <LinearLayout
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="right">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/submit_complain"
+            android:text="submit"
+            android:background="@color/headingColor"
+            android:textColor="@color/textcolorContent" />
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
+</RelativeLayout>

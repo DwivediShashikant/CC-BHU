@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "E:\\BHU_connect-master\\CC_BHU\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_holidays.xml",
+        "source": "E:\\BHU_connect-master\\CC_BHU\\app\\src\\main\\res\\menu\\menu_holidays.xml"
+    },
+    {
+        "merged": "E:\\BHU_connect-master\\CC_BHU\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_tabbed_complain.xml",
+        "source": "E:\\BHU_connect-master\\CC_BHU\\app\\src\\main\\res\\menu\\menu_tabbed_complain.xml"
+    },
+    {
+        "merged": "E:\\BHU_connect-master\\CC_BHU\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_complain.xml",
+        "source": "E:\\BHU_connect-master\\CC_BHU\\app\\src\\main\\res\\menu\\menu_complain.xml"
+    },
+    {
+        "merged": "E:\\BHU_connect-master\\CC_BHU\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_news_events.xml",
+        "source": "E:\\BHU_connect-master\\CC_BHU\\app\\src\\main\\res\\menu\\menu_news_events.xml"
+    },
+    {
+        "merged": "E:\\BHU_connect-master\\CC_BHU\\app\\build\\intermediates\\res\\merged\\debug\\menu\\pop_up_menu_news.xml",
+        "source": "E:\\BHU_connect-master\\CC_BHU\\app\\src\\main\\res\\menu\\pop_up_menu_news.xml"
+    },
+    {
+        "merged": "E:\\BHU_connect-master\\CC_BHU\\app\\build\\intermediates\\res\\merged\\debug\\menu\\pop_up_menu_events.xml",
+        "source": "E:\\BHU_connect-master\\CC_BHU\\app\\src\\main\\res\\menu\\pop_up_menu_events.xml"
+    }
+]

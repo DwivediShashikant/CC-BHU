@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="12dp"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp"
+    android:paddingTop="12dp"
+    tools:context="com.example.shashikant.bhuconnect.EventsAndNews.NewsEvents$PlaceholderFragment">
+    <LinearLayout
+        android:id="@+id/place_and_week"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="42dp"
+            android:id="@+id/current_event_logo"
+            android:layout_height="42dp"
+            android:layout_marginRight="10dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/event_name"
+                android:fontFamily="sans-serif-medium"
+                android:textStyle=""
+                android:textSize="15sp"
+                android:textColor="@color/headingColor"
+                android:textAllCaps="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Event Name"/>
+            <TextView
+                android:textSize="11.5sp"
+                android:id="@+id/event_venue"
+                android:textColor="@color/list_item_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Event Venue"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="11.5sp"
+            android:id="@+id/event_start_date"
+            android:layout_width="wrap_content"
+            android:textColor="@color/list_item_color"
+            android:layout_height="wrap_content"
+            android:text="Date"/>
+        <TextView
+            android:textSize="11.5sp"
+            android:id="@+id/event_end_date"
+            android:layout_width="wrap_content"
+            android:textColor="@color/list_item_color"
+            android:layout_height="wrap_content"
+            android:text="Date"/>
+    </LinearLayout>
+
+</RelativeLayout>

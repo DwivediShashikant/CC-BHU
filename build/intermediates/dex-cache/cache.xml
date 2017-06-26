@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\BHU_connect-master\CC_BHU\app\build\intermediates\exploded-aar\com.android.support\transition\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e51c2f662bb72419632af5192553c37e33890a99">
+        <dex dex="E:\BHU_connect-master\CC_BHU\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.2.0_85a3cd5c0ba7215a2afee33f8f75c1e86a0c3dc9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\BHU_connect-master\CC_BHU\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7e92aadd0697922316d1395c1887a23aebec640a">
+        <dex dex="E:\BHU_connect-master\CC_BHU\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.8.0_7d9340185d4cd108735639c839bdc77678d69384\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\BHU_connect-master\CC_BHU\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e3790392975a9ddd90c34f16d3e479a1c427ec5e">
+        <dex dex="E:\BHU_connect-master\CC_BHU\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_814a84dc928ae0a77afb111d1f105d63f088d7c9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\BHU_connect-master\CC_BHU\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="E:\BHU_connect-master\CC_BHU\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.2.0_9f99f7ad90a033eea304386961b3c54b77c9c769\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\BHU_connect-master\CC_BHU\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="E:\BHU_connect-master\CC_BHU\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.2.0_e8b858f414ef4f93191eb6cbfa1b95d97d9be8a3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\BHU_connect-master\CC_BHU\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9f6d236bac26d02b410e4ee186ba517ace5ee661">
+        <dex dex="E:\BHU_connect-master\CC_BHU\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.8.0_392e0e09af9930a20f0da7b04e591e4599ca8db0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Shashikant\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.2.0\support-annotations-25.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="E:\BHU_connect-master\CC_BHU\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.2.0_249eaa48722f9c36c2781b8007cda34fcbb73531\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\BHU_connect-master\CC_BHU\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="E:\BHU_connect-master\CC_BHU\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.2.0_158f20b9deeebe8246f94847fb6518ed8b2f3ab1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\BHU_connect-master\CC_BHU\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf2e1838e4428616c1aa26edf43de72b5b99bf84">
+        <dex dex="E:\BHU_connect-master\CC_BHU\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.8.0_e43381ce16c3189bdefcd84e4db98b38e69cf534\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\BHU_connect-master\CC_BHU\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\BHU_connect-master\CC_BHU\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.2.0_318f3aaf3c9cfeb2a0eaf1d6e1073a303e656d85\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\BHU_connect-master\CC_BHU\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="E:\BHU_connect-master\CC_BHU\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.2.0_c74ef2fe8306ff71ad21a091280fa05deb7599e7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\BHU_connect-master\CC_BHU\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c61641e333fa88da21758bab8cc28ee16604b05f">
+        <dex dex="E:\BHU_connect-master\CC_BHU\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.8.0_639105046217be3005b3613801504de6a7d24b1b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\BHU_connect-master\CC_BHU\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2d0423baf79c14766f76672d7d55e0c7a0f45cf6">
+        <dex dex="E:\BHU_connect-master\CC_BHU\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_341d0e337f71c2a7a59fbaf265426c4ba4244fce\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\BHU_connect-master\CC_BHU\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
+        <dex dex="E:\BHU_connect-master\CC_BHU\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.2.0_76385365e0b47e1424e0e2d116d4652429f5c9b7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\BHU_connect-master\CC_BHU\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="E:\BHU_connect-master\CC_BHU\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.2.0_6b3db3849d5dc80c34b2809d6ba6f27d443d0d44\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\BHU_connect-master\CC_BHU\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="E:\BHU_connect-master\CC_BHU\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.2.0_62ea57df4e77097059e5b212d9f6951021e4dc95\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\BHU_connect-master\CC_BHU\app\build\intermediates\exploded-aar\com.android.support\design\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea6a989b83d19b1b461281e0475a6cd6514897f8">
+        <dex dex="E:\BHU_connect-master\CC_BHU\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.2.0_29383758cd8dfb77956b986431c9abb5f6f3e2ba\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\BHU_connect-master\CC_BHU\app\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b1f95b0d76b8941577ad0ce807bd9e12fd39bfd9">
+        <dex dex="E:\BHU_connect-master\CC_BHU\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-gridlayout-v7-25.2.0_3375a79a71ec7ca2111e129703abbbdfdf8ec5aa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\BHU_connect-master\CC_BHU\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\9.8.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e3234cd25e23069abd48ecd2117bc0e8011bf45a">
+        <dex dex="E:\BHU_connect-master\CC_BHU\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-9.8.0_2e3125968274e557403c8daa8f9c281e219b2409\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\BHU_connect-master\CC_BHU\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="E:\BHU_connect-master\CC_BHU\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.2.0_fa8644d5cb6a1d6df14a62bddb7445c754ef1f28\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\BHU_connect-master\CC_BHU\app\build\intermediates\exploded-aar\com.android.support\support-v13\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="20e6d443b368a3cbcfd9121e6f424708e772967e">
+        <dex dex="E:\BHU_connect-master\CC_BHU\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v13-25.2.0_bffd3376e6395f3889df2ff32e7276484c867f8a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\BHU_connect-master\CC_BHU\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="E:\BHU_connect-master\CC_BHU\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.2.0_c7f93616d54bd31416d568f24872daacfd9fa11c\classes.dex" />
+    </item>
+
+</items>

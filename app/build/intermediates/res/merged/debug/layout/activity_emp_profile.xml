@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    tools:context="com.example.shashikant.bhuconnect.EmpProfile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="24dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/headingColor"
+                android:text="Profile"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:layout_centerHorizontal="true"
+
+                />
+
+        </RelativeLayout>
+
+        <View
+
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginRight="110dp"
+            android:layout_marginBottom="16dp"
+            android:background="@color/headingColor"
+            />
+
+
+        <!--Layout For Employee Name -->
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:text="Name"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/headingColor"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/headingColor"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:text=":"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:paddingLeft="12dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:id="@+id/employee_name"
+                android:text="Mr. GHGVOU"
+                android:textAppearance="?android:textAppearanceMedium"
+                />
+
+        </LinearLayout>
+
+        <!--Layout For Employee ID -->
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:text="Employee ID"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/headingColor"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/headingColor"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:text=":"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:paddingLeft="12dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:id="@+id/employee_id"
+                android:text="458693"
+                android:textAppearance="?android:textAppearanceMedium"
+                />
+
+        </LinearLayout>
+
+        <!--Layout For Employee DOB -->
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:text="Designation"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/headingColor"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/headingColor"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:text=":"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:paddingLeft="12dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:id="@+id/employee_designation"
+                android:text="Stagnographer"
+                android:textAppearance="?android:textAppearanceMedium"
+                />
+
+        </LinearLayout>
+
+        <!--Layout For Employee Faculty Name -->
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:text="Institute"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/headingColor"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/headingColor"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:text=":"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:paddingLeft="12dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:id="@+id/employee_faculty"
+                android:text="Faculty of Ayurveda"
+                android:textAppearance="?android:textAppearanceMedium"
+                />
+
+        </LinearLayout>
+
+        <!--Layout For Employee Email Id -->
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:text="E-mail"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/headingColor"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/headingColor"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:text=":"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:paddingLeft="12dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:id="@+id/employee_eMail"
+                android:text="Mr. XYZ"
+                android:textAppearance="?android:textAppearanceMedium"
+                />
+
+        </LinearLayout>
+
+        <!--Layout For Employee Mobile Number -->
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:text="Mobile No."
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/headingColor"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/headingColor"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:text=":"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:paddingLeft="12dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:id="@+id/employee_mobile_number"
+                android:text="9876543210"
+                android:textAppearance="?android:textAppearanceMedium"
+                />
+
+        </LinearLayout>
+
+
+
+        <!--Layout For Employee PAN -->
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:text="PAN"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/headingColor"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/headingColor"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:text=":"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:paddingLeft="12dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:id="@+id/employee_pan"
+                android:text="KHUY4566"
+                android:textAppearance="?android:textAppearanceMedium"
+                />
+
+        </LinearLayout>
+
+        <!--Layout For Employee retirement Date -->
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:text="Retirement Date"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/headingColor"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/headingColor"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:text=":"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:paddingLeft="12dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:id="@+id/employee_retirement_date"
+                android:text="30-11-2024"
+                android:textAppearance="?android:textAppearanceMedium"
+                />
+
+        </LinearLayout>
+
+        <!--Layout For Employee PAN -->
+
+    </LinearLayout>
+
+</ScrollView>

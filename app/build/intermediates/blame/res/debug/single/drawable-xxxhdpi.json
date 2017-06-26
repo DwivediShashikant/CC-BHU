@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "E:\\BHU_connect-master\\CC_BHU\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\lightningbolt.png",
+        "source": "E:\\BHU_connect-master\\CC_BHU\\app\\src\\main\\res\\drawable-xxxhdpi\\lightningbolt.png"
+    },
+    {
+        "merged": "E:\\BHU_connect-master\\CC_BHU\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\tele_phone.png",
+        "source": "E:\\BHU_connect-master\\CC_BHU\\app\\src\\main\\res\\drawable-xxxhdpi\\tele_phone.png"
+    },
+    {
+        "merged": "E:\\BHU_connect-master\\CC_BHU\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\bhu_logo.png",
+        "source": "E:\\BHU_connect-master\\CC_BHU\\app\\src\\main\\res\\drawable-xxxhdpi\\bhu_logo.png"
+    },
+    {
+        "merged": "E:\\BHU_connect-master\\CC_BHU\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\email.png",
+        "source": "E:\\BHU_connect-master\\CC_BHU\\app\\src\\main\\res\\drawable-xxxhdpi\\email.png"
+    },
+    {
+        "merged": "E:\\BHU_connect-master\\CC_BHU\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\notifications.png",
+        "source": "E:\\BHU_connect-master\\CC_BHU\\app\\src\\main\\res\\drawable-xxxhdpi\\notifications.png"
+    },
+    {
+        "merged": "E:\\BHU_connect-master\\CC_BHU\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\past_event.png",
+        "source": "E:\\BHU_connect-master\\CC_BHU\\app\\src\\main\\res\\drawable-xxxhdpi\\past_event.png"
+    },
+    {
+        "merged": "E:\\BHU_connect-master\\CC_BHU\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\events_happenning.png",
+        "source": "E:\\BHU_connect-master\\CC_BHU\\app\\src\\main\\res\\drawable-xxxhdpi\\events_happenning.png"
+    },
+    {
+        "merged": "E:\\BHU_connect-master\\CC_BHU\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\calendar.png",
+        "source": "E:\\BHU_connect-master\\CC_BHU\\app\\src\\main\\res\\drawable-xxxhdpi\\calendar.png"
+    },
+    {
+        "merged": "E:\\BHU_connect-master\\CC_BHU\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\student.png",
+        "source": "E:\\BHU_connect-master\\CC_BHU\\app\\src\\main\\res\\drawable-xxxhdpi\\student.png"
+    },
+    {
+        "merged": "E:\\BHU_connect-master\\CC_BHU\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\clockforward.png",
+        "source": "E:\\BHU_connect-master\\CC_BHU\\app\\src\\main\\res\\drawable-xxxhdpi\\clockforward.png"
+    },
+    {
+        "merged": "E:\\BHU_connect-master\\CC_BHU\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\employee.png",
+        "source": "E:\\BHU_connect-master\\CC_BHU\\app\\src\\main\\res\\drawable-xxxhdpi\\employee.png"
+    },
+    {
+        "merged": "E:\\BHU_connect-master\\CC_BHU\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\complaint_edit.png",
+        "source": "E:\\BHU_connect-master\\CC_BHU\\app\\src\\main\\res\\drawable-xxxhdpi\\complaint_edit.png"
+    },
+    {
+        "merged": "E:\\BHU_connect-master\\CC_BHU\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\telephone.png",
+        "source": "E:\\BHU_connect-master\\CC_BHU\\app\\src\\main\\res\\drawable-xxxhdpi\\telephone.png"
+    },
+    {
+        "merged": "E:\\BHU_connect-master\\CC_BHU\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\website_link.png",
+        "source": "E:\\BHU_connect-master\\CC_BHU\\app\\src\\main\\res\\drawable-xxxhdpi\\website_link.png"
+    }
+]

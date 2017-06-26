@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/top_events"
+        android:title="Top Events"/>
+    <item
+        android:id="@+id/past_events"
+        android:title="Past Events"/>
+</menu>
